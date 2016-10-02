@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
+using namespace std;
+
 typedef long long ll;
 
-typedef pair <int, int> ii;
+typedef pair<int, int> ii;
 typedef vector<ii> vii;
 typedef vector<int> vi;
 
@@ -25,7 +27,11 @@ int main()
 	scanf("%d ", &s);
 	vi prev;
 	queue<int> q;
+	prev.assign(V, -1);
 	dist[s] = 0;
+
+	cout<<"*";
+
 	q.push(s);
 	int layer = -1;
 

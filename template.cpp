@@ -115,7 +115,5 @@ int main()
     {
     	
     }
-    //ifdef LOCAL
-    cerr << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " secs." << endl;
-  	//endif
+    
 }
